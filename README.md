@@ -4,7 +4,7 @@
 
 ![Vero Logo](./0.assets/graphics/logo.png)
 
-### by [Chris Khomo](https://github.com/cskhomo) | [Amahle Cele](https://github.com/cypticnoone) | [Austen Dlamini](github.com/siroccoaustin)
+### by [Chris Khomo](https://github.com/csKhomo) | [Amahle Cele](https://github.com/CypticNoOne) | [Austen Dlamini](github.com/SiroccoAustin)
 
 </div>
 
