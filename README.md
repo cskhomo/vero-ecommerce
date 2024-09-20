@@ -10,27 +10,27 @@
 
 ## Index
 
-- [Summary](#summary)
+- [Summary](#summary-1)
   -
   - [System Vision](#system-vision)
 
-- [Analysis](#analysis)
+- [Analysis](#analysis-1)
   -
   - [Stakeholder Interview](#stakeholder-interview)
   - [Competitor Analysis](#competitor-analysis)
   - [User Survey](#user-survey)
   - [Personas](#personas)
 
-- [Design](#design)
+- [Design](#design-1)
   -
-  - [Information Architecture](#information-architecture)
+  - [Information Architecture](#information-architecture-1)
     -
     - [Use Cases](#use-cases)
     - [Task Flow](#task-flow)
     - [Site Map](#site-map)
     - [Wireframes](#wireframes)
  
-  - [Visual Design](#visual-design)
+  - [Visual Design](#visual-design-1)
     -
     - [Branding](#branding)
     - [User Interface](#user-interface)
