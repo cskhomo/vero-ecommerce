@@ -1,0 +1,1 @@
+Software Development Lifecycle of an Online Store for Party Supplies. Built with React and Django.

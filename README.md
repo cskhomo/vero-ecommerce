@@ -17,9 +17,9 @@
 - [Analysis](#analysis)
   -
   - [Stakeholder Interview](#stakeholder-interview)
-  - [Personas](#personas)
-  - [User Survey](#user-survey)
   - [Competitor Analysis](#competitor-analysis)
+  - [User Survey](#user-survey)
+  - [Personas](#personas)
 
 - [Design](#design)
   -
@@ -50,9 +50,9 @@
 ## Analysis
 
 ### Stakeholder Interview
-### Personas
-### User Survey
 ### Competitor Analysis
+### User Survey
+### Personas
 
 ## Design
 
