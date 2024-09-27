@@ -1,6 +1,6 @@
 # Vero E-Commerce
 
-<div style="text-align: center">
+<div align="center">
 
 ![Vero Logo](./0.assets/graphics/logo.png)
 
