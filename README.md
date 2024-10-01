@@ -30,7 +30,7 @@
     - [Site Map](#site-map)
     - [Wireframes](#wireframes)
  
-  - [Visual Design](#visual-design-1)
+  - [Visual Communication](#visual-communication-1)
     -
     - [Branding](#branding)
     - [User Interface](#user-interface)
@@ -63,7 +63,7 @@
 ### Site Map
 ### Wireframes
 
-## Visual Design
+## Visual Communication
 
 ### Branding
 
