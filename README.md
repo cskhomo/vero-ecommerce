@@ -45,6 +45,11 @@
 
 ## Summary
 
+This project involves the analysis, design, and development of an e-commerce website. The client requires an online platform for themed party supplies and related concessions.
+ 
+The objective of the project is to work in close collaboration with the client in the creation
+of a user-centered website that offers a seamless shopping experience for individuals organising a party. 
+
 ### System Vision
 
 ## Analysis
