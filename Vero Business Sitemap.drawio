@@ -28,7 +28,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="HKQunx7O__zHXJOCFJla-9" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;b&gt;About us/ Company&amp;nbsp;&lt;/b&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="330" y="390" width="140" height="40" as="geometry" />
+          <mxGeometry x="330" y="390" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="HKQunx7O__zHXJOCFJla-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="HKQunx7O__zHXJOCFJla-17" target="HKQunx7O__zHXJOCFJla-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -50,6 +50,12 @@
         </mxCell>
         <mxCell id="zaC_Tw9AJUwiArD0EuJi-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;u&gt;Vero Business Sitemap 2024&lt;/u&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="10" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC_Tw9AJUwiArD0EuJi-3" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="430" width="150" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="zaC_Tw9AJUwiArD0EuJi-4" value="● Unique selling point&lt;br&gt;● Introduction to the team&amp;nbsp;&lt;div&gt;● Description of the business&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zaC_Tw9AJUwiArD0EuJi-3">
+          <mxGeometry y="30" width="150" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
