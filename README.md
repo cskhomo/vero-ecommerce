@@ -27,7 +27,7 @@
     -
     - [Use Cases](#use-cases)
     - [Task Flow](#task-flow)
-    - [Site Map](#site-map)
+    - [Site Maps](#site-maps)
     - [Wireframes](#wireframes)
  
   - [Visual Communication](#visual-communication-1)
@@ -67,7 +67,7 @@ The project will be carried out in a iterative approach, with each iteration foc
 
 ### Use Cases
 ### Task Flow
-### Site Map
+### Site Maps
 ### Wireframes
 
 ## Visual Communication
