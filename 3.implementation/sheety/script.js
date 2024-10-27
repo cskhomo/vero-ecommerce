@@ -15,26 +15,28 @@ function displayData(itemList) {
 
     itemList.forEach(item => {
         
-        const productDiv = document.createElement("div");
-        productDiv.classList.add("product");
-        productList.appendChild(productDiv);
+        if (item.product && item.description) {
+            const productDiv = document.createElement("div");
+            productDiv.classList.add("product");
+            productList.appendChild(productDiv);
 
-        const imageDiv = document.createElement("div");
-        imageDiv.classList.add("image");
-        productDiv.appendChild(imageDiv);
+            const imageDiv = document.createElement("div");
+            imageDiv.classList.add("image");
+            productDiv.appendChild(imageDiv);
 
-        const article = document.createElement("article");
-        productDiv.appendChild(article);
+            const article = document.createElement("article");
+            productDiv.appendChild(article);
 
-        const titleDiv = document.createElement("div");
-        titleDiv.classList.add("title");
-        titleDiv.innerHTML = item.product;
-        article.appendChild(titleDiv);
+            const titleDiv = document.createElement("div");
+            titleDiv.classList.add("title");
+            titleDiv.innerHTML = item.product;
+            article.appendChild(titleDiv);
 
-        const descriptionDiv = document.createElement("div");
-        descriptionDiv.classList.add("description");
-        descriptionDiv.innerHTML = item.description;
-        article.appendChild(descriptionDiv);
+            const descriptionDiv = document.createElement("div");
+            descriptionDiv.classList.add("description");
+            descriptionDiv.innerHTML = item.description;
+            article.appendChild(descriptionDiv);
+        }
     });
   
 }
