@@ -1,0 +1,28 @@
+.product, article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product{
+    flex-direction: row;
+    gap: 15px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.image {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+
+    flex-basis: 1;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+article{
+    flex-direction: column;
+}
