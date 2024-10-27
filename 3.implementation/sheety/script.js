@@ -3,13 +3,16 @@ const packsURL = 'https://api.sheety.co/f49d308f0aefb77919c5cfb06b9504ed/catalog
 
 async function fetchData(url) {
     const response = await fetch(url)
-    const data = await response.json()
-
-    displayData(data.packs);
+    return response.json()
 }
 
-function displayData(itemList) {
+async function loadData() {
+    const packsData = await fetch(packsURL)
+    displayPacks(packsData.packs);
+}
 
+function displayPacks(itemList) {
+     
     const productList = document.querySelector(".productList");
     productList.innerHTML = '';
 
@@ -41,4 +44,4 @@ function displayData(itemList) {
   
 }
 
-fetchData(packsURL);
+loadData()
