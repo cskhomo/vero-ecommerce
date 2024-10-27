@@ -1,6 +1,16 @@
-.product, article {
+h1 {
+    text-align: center;
+}
+
+.productList, .product, article {
     display: flex;
     flex-wrap: wrap;
+}
+
+.productList{
+    flex-direction: row;
+    gap: 30px;
+    margin: 30px;
 }
 
 .product{
