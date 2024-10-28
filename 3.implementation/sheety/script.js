@@ -4,11 +4,18 @@ const packsURL = 'https://api.sheety.co/f49d308f0aefb77919c5cfb06b9504ed/catalog
 async function fetchData(url) {
     const response = await fetch(url)
     const data = await response.json()
-
-    displayData(data.packs);
+    return data;
 }
 
-function displayData(itemList) {
+async function loadData() {
+
+    const packsData = await fetchData(packsURL);
+    displayPacks(packsData);
+}
+
+function displayPacks(data) {
+
+    itemList = data.packs
 
     const productList = document.querySelector(".productList");
     productList.innerHTML = '';
@@ -17,28 +24,28 @@ function displayData(itemList) {
         
         if (item.product && item.description) {
             const productDiv = document.createElement("div");
-            productDiv.classList.add("product");
-            productList.appendChild(productDiv);
+        productDiv.classList.add("product");
+        productList.appendChild(productDiv);
 
-            const imageDiv = document.createElement("div");
-            imageDiv.classList.add("image");
-            productDiv.appendChild(imageDiv);
+        const imageDiv = document.createElement("div");
+        imageDiv.classList.add("image");
+        productDiv.appendChild(imageDiv);
 
-            const article = document.createElement("article");
-            productDiv.appendChild(article);
+        const article = document.createElement("article");
+        productDiv.appendChild(article);
 
-            const titleDiv = document.createElement("div");
-            titleDiv.classList.add("title");
-            titleDiv.innerHTML = item.product;
-            article.appendChild(titleDiv);
+        const titleDiv = document.createElement("div");
+        titleDiv.classList.add("title");
+        titleDiv.innerHTML = item.product;
+        article.appendChild(titleDiv);
 
-            const descriptionDiv = document.createElement("div");
-            descriptionDiv.classList.add("description");
-            descriptionDiv.innerHTML = item.description;
-            article.appendChild(descriptionDiv);
+        const descriptionDiv = document.createElement("div");
+        descriptionDiv.classList.add("description");
+        descriptionDiv.innerHTML = item.description;
+        article.appendChild(descriptionDiv);
         }
     });
   
 }
 
-fetchData(packsURL);
+loadData();

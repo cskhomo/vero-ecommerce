@@ -35,4 +35,5 @@ h1 {
 
 article{
     flex-direction: column;
+    width: 300px;
 }
